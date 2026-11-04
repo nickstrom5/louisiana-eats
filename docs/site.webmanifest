@@ -1,0 +1,21 @@
+{
+  "name": "Bayou Eats",
+  "short_name": "Bayou Eats",
+  "description": "Po-boys, boudin & oysters: a guide to 11,338 Louisiana restaurants.",
+  "start_url": "/louisiana-eats/",
+  "display": "browser",
+  "background_color": "#f4efe6",
+  "theme_color": "#2f5d50",
+  "icons": [
+    {
+      "src": "/louisiana-eats/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/louisiana-eats/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

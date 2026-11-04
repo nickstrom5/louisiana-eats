@@ -1,0 +1,333 @@
+{
+ "generated": "2026-11-04",
+ "domain": "https://nickstrom5.github.io/louisiana-eats",
+ "restaurants": 11338,
+ "places_incl_hidden": 11809,
+ "towns": 329,
+ "counties": 64,
+ "on_an_official_list": 2918,
+ "hand_checked_on_a_guide": 46,
+ "serves_alcohol_state_license": 668,
+ "guide_poboys": 7,
+ "guide_creole": 10,
+ "guide_boudin": 8,
+ "guide_seafood": 10,
+ "guide_sweets": 7,
+ "guide_meatpies": 1,
+ "guide_gumbo": 2,
+ "oldest": 1,
+ "honors": 41,
+ "michelin": {
+  "MICHELIN Recommended": 23,
+  "Bib Gourmand": 11,
+  "1 MICHELIN Star": 3,
+  "2 MICHELIN Stars": 1
+ },
+ "james_beard": 5,
+ "americas_classics": 4,
+ "permits_updated": "2026-11-03",
+ "city_pages": {
+  "New Orleans": {
+   "restaurants": 2384,
+   "listed": 64,
+   "poboys": 6,
+   "creole": 10,
+   "boudin": 0,
+   "seafood": 9,
+   "sweets": 7,
+   "meatpies": 0,
+   "gumbo": 2,
+   "hon": 37,
+   "oldest": 0
+  }
+ },
+ "cities_without_a_page": {
+  "Metairie": 2,
+  "Baton Rouge": 1,
+  "Lafayette": 3,
+  "Scott": 1,
+  "Breaux Bridge": 1,
+  "Shreveport": 0,
+  "Lake Charles": 0,
+  "Kenner": 0,
+  "Westwego": 1,
+  "Covington": 1,
+  "Natchitoches": 1,
+  "Monroe": 0,
+  "Houma": 0,
+  "Opelousas": 0,
+  "Gretna": 0,
+  "St. Francisville": 1
+ },
+ "noindex_pages": [],
+ "web_app_data_bytes": {
+  "data/core.json": {
+   "raw": 924182,
+   "gzip": 187895
+  },
+  "data/detail-acadia-parish.json": {
+   "raw": 4896,
+   "gzip": 1458
+  },
+  "data/detail-allen-parish.json": {
+   "raw": 1824,
+   "gzip": 601
+  },
+  "data/detail-ascension-parish.json": {
+   "raw": 15229,
+   "gzip": 3838
+  },
+  "data/detail-assumption-parish.json": {
+   "raw": 874,
+   "gzip": 383
+  },
+  "data/detail-avoyelles-parish.json": {
+   "raw": 2741,
+   "gzip": 912
+  },
+  "data/detail-beauregard-parish.json": {
+   "raw": 2082,
+   "gzip": 700
+  },
+  "data/detail-bienville-parish.json": {
+   "raw": 690,
+   "gzip": 315
+  },
+  "data/detail-bossier-parish.json": {
+   "raw": 16264,
+   "gzip": 4158
+  },
+  "data/detail-caddo-parish.json": {
+   "raw": 32295,
+   "gzip": 7670
+  },
+  "data/detail-calcasieu-parish.json": {
+   "raw": 27638,
+   "gzip": 6778
+  },
+  "data/detail-caldwell-parish.json": {
+   "raw": 728,
+   "gzip": 322
+  },
+  "data/detail-cameron-parish.json": {
+   "raw": 306,
+   "gzip": 187
+  },
+  "data/detail-catahoula-parish.json": {
+   "raw": 360,
+   "gzip": 192
+  },
+  "data/detail-claiborne-parish.json": {
+   "raw": 771,
+   "gzip": 323
+  },
+  "data/detail-concordia-parish.json": {
+   "raw": 1328,
+   "gzip": 489
+  },
+  "data/detail-desoto-parish.json": {
+   "raw": 1426,
+   "gzip": 529
+  },
+  "data/detail-east-baton-rouge-parish.json": {
+   "raw": 202087,
+   "gzip": 25788
+  },
+  "data/detail-east-carroll-parish.json": {
+   "raw": 283,
+   "gzip": 170
+  },
+  "data/detail-east-feliciana-parish.json": {
+   "raw": 1132,
+   "gzip": 478
+  },
+  "data/detail-evangeline-parish.json": {
+   "raw": 1772,
+   "gzip": 599
+  },
+  "data/detail-franklin-parish.json": {
+   "raw": 1489,
+   "gzip": 540
+  },
+  "data/detail-grant-parish.json": {
+   "raw": 315,
+   "gzip": 179
+  },
+  "data/detail-iberia-parish.json": {
+   "raw": 6576,
+   "gzip": 1895
+  },
+  "data/detail-iberville-parish.json": {
+   "raw": 1847,
+   "gzip": 638
+  },
+  "data/detail-jackson-parish.json": {
+   "raw": 978,
+   "gzip": 434
+  },
+  "data/detail-jefferson-davis-parish.json": {
+   "raw": 2726,
+   "gzip": 916
+  },
+  "data/detail-jefferson-parish.json": {
+   "raw": 63646,
+   "gzip": 15650
+  },
+  "data/detail-lafayette-parish.json": {
+   "raw": 38738,
+   "gzip": 9438
+  },
+  "data/detail-lafourche-parish.json": {
+   "raw": 9310,
+   "gzip": 2571
+  },
+  "data/detail-lasalle-parish.json": {
+   "raw": 1018,
+   "gzip": 400
+  },
+  "data/detail-lincoln-parish.json": {
+   "raw": 6172,
+   "gzip": 1843
+  },
+  "data/detail-livingston-parish.json": {
+   "raw": 13416,
+   "gzip": 3562
+  },
+  "data/detail-madison-parish.json": {
+   "raw": 989,
+   "gzip": 396
+  },
+  "data/detail-morehouse-parish.json": {
+   "raw": 1612,
+   "gzip": 557
+  },
+  "data/detail-natchitoches-parish.json": {
+   "raw": 5020,
+   "gzip": 1418
+  },
+  "data/detail-orleans-parish.json": {
+   "raw": 325446,
+   "gzip": 43885
+  },
+  "data/detail-ouachita-parish.json": {
+   "raw": 20172,
+   "gzip": 5069
+  },
+  "data/detail-plaquemines-parish.json": {
+   "raw": 2065,
+   "gzip": 718
+  },
+  "data/detail-pointe-coupee-parish.json": {
+   "raw": 1861,
+   "gzip": 629
+  },
+  "data/detail-rapides-parish.json": {
+   "raw": 16267,
+   "gzip": 4102
+  },
+  "data/detail-red-river-parish.json": {
+   "raw": 756,
+   "gzip": 348
+  },
+  "data/detail-richland-parish.json": {
+   "raw": 1704,
+   "gzip": 602
+  },
+  "data/detail-sabine-parish.json": {
+   "raw": 1742,
+   "gzip": 596
+  },
+  "data/detail-saint-bernard-parish.json": {
+   "raw": 5129,
+   "gzip": 1497
+  },
+  "data/detail-saint-charles-parish.json": {
+   "raw": 4180,
+   "gzip": 1302
+  },
+  "data/detail-saint-helena-parish.json": {
+   "raw": 50,
+   "gzip": 69
+  },
+  "data/detail-saint-james-parish.json": {
+   "raw": 1511,
+   "gzip": 568
+  },
+  "data/detail-saint-john-the-baptist-parish.json": {
+   "raw": 4099,
+   "gzip": 1249
+  },
+  "data/detail-saint-landry-parish.json": {
+   "raw": 7084,
+   "gzip": 1926
+  },
+  "data/detail-saint-martin-parish.json": {
+   "raw": 5222,
+   "gzip": 1531
+  },
+  "data/detail-saint-mary-parish.json": {
+   "raw": 4964,
+   "gzip": 1461
+  },
+  "data/detail-saint-tammany-parish.json": {
+   "raw": 38875,
+   "gzip": 9318
+  },
+  "data/detail-tangipahoa-parish.json": {
+   "raw": 17922,
+   "gzip": 4591
+  },
+  "data/detail-tensas-parish.json": {
+   "raw": 195,
+   "gzip": 150
+  },
+  "data/detail-terrebonne-parish.json": {
+   "raw": 13569,
+   "gzip": 3596
+  },
+  "data/detail-union-parish.json": {
+   "raw": 986,
+   "gzip": 402
+  },
+  "data/detail-vermilion-parish.json": {
+   "raw": 3915,
+   "gzip": 1182
+  },
+  "data/detail-vernon-parish.json": {
+   "raw": 4152,
+   "gzip": 1308
+  },
+  "data/detail-washington-parish.json": {
+   "raw": 3634,
+   "gzip": 1033
+  },
+  "data/detail-webster-parish.json": {
+   "raw": 3975,
+   "gzip": 1183
+  },
+  "data/detail-west-baton-rouge-parish.json": {
+   "raw": 4201,
+   "gzip": 1317
+  },
+  "data/detail-west-carroll-parish.json": {
+   "raw": 627,
+   "gzip": 301
+  },
+  "data/detail-west-feliciana-parish.json": {
+   "raw": 1185,
+   "gzip": 455
+  },
+  "data/detail-winn-parish.json": {
+   "raw": 886,
+   "gzip": 366
+  },
+  "data/ids.json": {
+   "raw": 147422,
+   "gzip": 85741
+  },
+  "data/la_shapes.json": {
+   "raw": 242657,
+   "gzip": 54818
+  }
+ }
+}

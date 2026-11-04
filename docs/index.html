@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" data-base="/louisiana-eats">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'sha256-YfPxYBJDc639ac4gHFGjFpJLVatKf6JcrBZeF/tuACM='; style-src 'sha256-fMxwQULcl5FFsp4saJ2UF1040BkhcY+El0S0ke/RrII='; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bayou Eats: Louisiana Restaurants, Po-Boys &amp; Boudin</title>
+<meta name="description" content="Po-boys, Creole dining rooms, boudin and oyster bars: a free iPhone and iPad guide to 11,338 Louisiana restaurants, with MICHELIN honors, with addresses.">
+<link rel="canonical" href="https://nickstrom5.github.io/louisiana-eats/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#2f5d50">
+<!-- Smart App Banner: once the App Store Connect record exists, replace APP_ID with the numeric Apple ID and uncomment.
+<meta name="apple-itunes-app" content="app-id=APP_ID">
+-->
+<meta property="og:title" content="Bayou Eats: Louisiana Restaurants, Po-Boys &amp; Boudin">
+<meta property="og:description" content="Po-boys, Creole dining rooms, boudin and oyster bars: a free iPhone and iPad guide to 11,338 Louisiana restaurants, with MICHELIN honors, with addresses.">
+<meta property="og:url" content="https://nickstrom5.github.io/louisiana-eats/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bayou Eats">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://nickstrom5.github.io/louisiana-eats/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bayou Eats: Po-boys, boudin &amp; oysters. Louisiana restaurants, with hand-checked po-boys, Creole dining rooms, boudin and oyster bars.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Bayou Eats: Louisiana Restaurants, Po-Boys &amp; Boudin">
+<meta name="twitter:description" content="Po-boys, Creole dining rooms, boudin and oyster bars: a free iPhone and iPad guide to 11,338 Louisiana restaurants, with MICHELIN honors, with addresses.">
+<meta name="twitter:image" content="https://nickstrom5.github.io/louisiana-eats/og.png">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232F5D50'/%3E%3Crect x='9.6' y='30.1' width='21' height='17' rx='6' fill='%23C98A3E'/%3E%3Crect x='10.9' y='31.1' width='18.4' height='15' rx='5.5' fill='%23E8B866'/%3E%3Crect x='10.9' y='31.1' width='18.4' height='7.5' rx='5.5' fill='%23FBF8F2'/%3E%3Crect x='33.3' y='30.1' width='21' height='17' rx='6' fill='%23C98A3E'/%3E%3Crect x='34.599999999999994' y='31.1' width='18.4' height='15' rx='5.5' fill='%23E8B866'/%3E%3Crect x='34.599999999999994' y='31.1' width='18.4' height='7.5' rx='5.5' fill='%23FBF8F2'/%3E%3Crect x='21.4' y='14.4' width='21' height='17' rx='6' fill='%23C98A3E'/%3E%3Crect x='22.7' y='15.4' width='18.4' height='15' rx='5.5' fill='%23E8B866'/%3E%3Crect x='22.7' y='15.4' width='18.4' height='7.5' rx='5.5' fill='%23FBF8F2'/%3E%3C/svg%3E">
+<link rel="icon" type="image/png" sizes="32x32" href="/louisiana-eats/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/louisiana-eats/apple-touch-icon.png">
+<link rel="manifest" href="/louisiana-eats/site.webmanifest">
+<style>
+  :root {
+    --bg: #f4efe6; --surface: #fff; --surface2: #efeadf; --rule: #e4ddcf;
+    --ink: #18231f; --ink2: #2f3d37; --muted: #58635e;
+    --accent: #2f5d50; --accent2: #3e7464; --on-accent: #fff; --orange: #b5121b; --on-orange: #fff; --lime: #d3bc8d; --soft: #f6d9d6; --limesoft: #f1e8d4;
+    --focus: #b5121b;
+    --radius: 16px;
+    --display: "Avenir Next Condensed", "Helvetica Neue Condensed", "Roboto Condensed", "Arial Narrow", system-ui, sans-serif;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1a17; --surface: #16251e; --surface2: #1d3027; --rule: #2c4538; --ink: #f1f5f2; --ink2: #d5e1da; --muted: #a9bab0; --accent: #a7d8c4; --accent2: #c6e8da; --on-accent: #0f1a17; --focus: #d3bc8d; }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: var(--accent); text-underline-offset: 2px; }
+  a:focus-visible, summary:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, [tabindex]:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+  .skip { position: absolute; left: -9999px; top: 0; background: var(--orange); color: var(--on-orange); padding: 10px 14px; font-weight: 700; z-index: 10; }
+  .skip:focus { left: 8px; top: 8px; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+  header.site { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 0 14px; }
+  .stripes { display: block; margin: 0 0 4px; border-radius: 4px; overflow: hidden; line-height: 0; }
+  .stripes svg { display: block; width: 100%; height: 24px; }
+  .logo { display: flex; align-items: center; gap: 10px; font: 800 24px/1 var(--display); text-transform: uppercase; letter-spacing: .01em; color: var(--accent); text-decoration: none; }
+  .logo svg { flex: 0 0 auto; border-radius: 7px; }
+  header.site nav { display: flex; flex-wrap: wrap; gap: 4px 16px; justify-content: flex-end; }
+  header.site nav a { color: var(--ink2); text-decoration: none; font-size: 15px; }
+  header.site nav a:hover { color: var(--accent); text-decoration: underline; }
+  h1, h2 { font-family: var(--display); font-weight: 800; color: var(--accent); letter-spacing: -.005em; }
+  h1 { font-size: clamp(40px, 8.5vw, 64px); line-height: .95; margin: 0 0 18px; text-transform: uppercase; overflow-wrap: break-word; text-shadow: 3px 3px 0 var(--orange); }
+  .kicker { font: 600 13px/1.4 var(--mono); letter-spacing: .04em; text-transform: uppercase; color: var(--accent); margin: 0 0 12px; }
+  .kicker::before { content: ""; display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: var(--orange); margin: 0 8px 1px 0; }
+  h2 { font-size: 34px; line-height: 1.02; margin: 0 0 10px; text-transform: uppercase; }
+  h3 { font-size: 18px; margin: 0; line-height: 1.3; }
+  .lede { font-size: 19px; color: var(--ink2); margin: 0 0 26px; }
+  .hero { padding: 44px 0 28px; }
+  section { padding: 36px 0; border-top: 1px solid var(--rule); }
+  section.hero { border: 0; }
+  .sub { color: var(--ink2); margin: 0 0 22px; }
+  .cta-row { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; }
+  .btn { display: inline-flex; align-items: center; gap: 10px; background: var(--orange); color: var(--on-orange); font-weight: 700; padding: 14px 20px; border-radius: 14px; text-decoration: none; font-size: 17px; }
+  .btn-ghost { background: transparent; color: var(--accent); border: 2px solid var(--accent); }
+  .pill { font-size: 14px; color: var(--muted); }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 28px 0 0; padding: 0; list-style: none; }
+  .stats li { background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 14px; }
+  .stats b { display: block; font: 600 28px/1 var(--mono); color: var(--accent); }
+  .stats span { font-size: 14px; color: var(--muted); }
+  .steps { display: grid; gap: 12px; list-style: none; margin: 0; padding: 0; }
+  .step { display: flex; gap: 14px; background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; }
+  .step .n { flex: 0 0 32px; height: 32px; border-radius: 50%; background: var(--orange); color: var(--on-orange); font-weight: 800; display: grid; place-items: center; }
+  .step p { margin: 4px 0 0; color: var(--ink2); }
+  .shots { display: flex; gap: 14px; overflow-x: auto; margin: 0 -20px; padding: 4px 20px 14px; scroll-snap-type: x proximity; list-style: none; }
+  .shots li { flex: 0 0 auto; width: 210px; scroll-snap-align: start; }
+  .shots img { display: block; width: 210px; height: auto; border-radius: 24px; border: 1px solid var(--rule); background: var(--surface2); }
+  .shots p { font-size: 14px; color: var(--muted); margin: 8px 2px 0; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .card { background: var(--surface); border: 1px solid var(--rule); border-radius: var(--radius); padding: 18px; }
+  .card h3 { font: 800 21px/1.1 var(--display); text-transform: uppercase; letter-spacing: .01em; }
+  a.card.gc { display: flex; flex-direction: column; gap: 6px; border: 0; border-radius: 18px; min-height: 150px; }
+  a.card.gc b { font: 600 32px/1 var(--mono); margin-bottom: auto; }
+  a.card.gc p, a.card.gc h3 { color: inherit; }
+  a.card.gc p { opacity: .92; }
+  a.card.gc { background: #b5121b; color: #fff; }
+  a.card.gc.gc-oldest, a.card.gc.gc-honors { background: #2f5d50; color: #fff; }
+  .card p { margin: 6px 0 0; color: var(--ink2); }
+  a.card { display: block; text-decoration: none; color: var(--ink); }
+  a.card:hover h3 { text-decoration: underline; color: var(--accent); }
+  .cities { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; padding: 0; margin: 0; }
+  .cities a { display: inline-block; padding: 8px 12px; border-radius: 999px; border: 1px solid var(--rule); background: var(--surface); text-decoration: none; color: var(--ink); font-size: 15px; }
+  .cities a:hover { border-color: var(--accent); }
+  .cities a[aria-current] { border-color: var(--accent); font-weight: 700; }
+  details { background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 2px 18px; margin-bottom: 10px; }
+  summary { cursor: pointer; padding: 14px 0; font-weight: 600; list-style: none; display: flex; justify-content: space-between; gap: 12px; }
+  summary::-webkit-details-marker { display: none; }
+  summary::after { content: "+"; color: var(--accent); font-weight: 800; }
+  details[open] summary::after { content: "\2013"; }
+  details p { margin: 0 0 16px; color: var(--ink2); }
+  .final { text-align: center; }
+  .final .cta-row { justify-content: center; }
+  nav.crumbs { font-size: 14px; color: var(--muted); padding: 16px 0 0; }
+  nav.crumbs ol { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+  nav.crumbs li + li::before { content: "/"; margin-right: 6px; color: var(--rule); }
+  nav.crumbs a { color: var(--muted); }
+  .places { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+  .places li { background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 14px 16px; min-width: 0; overflow-wrap: anywhere; scroll-margin-top: 12px; }
+  .places li:target { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+  .places .where { margin: 2px 0 0; font-size: 15px; color: var(--muted); }
+  .places .facts { margin: 8px 0 0; font-size: 15px; color: var(--ink2); }
+  .places .facts b { color: var(--ink); font-weight: 600; }
+  .places .note { margin: 6px 0 0; font-size: 15px; color: var(--ink2); }
+  .places .fine { margin: 6px 0 0; }
+  .places .link { font-size: 14px; margin: 6px 0 0; }
+  .tag { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; background: var(--soft); color: #5e1f10; border-radius: 6px; padding: 1px 6px; margin: 0 4px 2px 0; }
+  .tag-mi { background: #b5121b; color: #fff; }
+  .tag-jb { background: #2f5d50; color: #fff; }
+  .tag-plain { background: #efeadf; color: #18231f; }
+  .toc { columns: 2; padding-left: 20px; margin: 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .tbl { overflow-x: auto; }
+  .res { display: inline-block; font: 800 12px/1.4 -apple-system, system-ui, sans-serif; letter-spacing: .04em; text-transform: uppercase; padding: 2px 6px; border-radius: 6px; }
+  .res-ok { background: #ddefe3; color: #0e5a2b; } .res-mid { background: #ffe9c2; color: #6b3a00; } .res-low { background: #f9d5db; color: #7a0019; }
+  .groups { list-style: none; padding: 0; margin: 0 0 18px; display: grid; gap: 12px; }
+  .groups > li { background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; padding: 14px 16px; }
+  .groups ul { margin: 8px 0 0; padding-left: 20px; color: var(--ink2); font-size: 15px; }
+  .groups .count { margin: 8px 0 0; font-weight: 600; }
+  .fine { font-size: 14px; color: var(--muted); }
+  .legal h2 { font-size: 26px; margin-top: 28px; }
+  .legal p, .legal li { color: var(--ink2); }
+  footer { padding: 32px 0 56px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--rule); margin-top: 20px; }
+  footer nav { display: flex; flex-wrap: wrap; gap: 8px 16px; }
+  footer a { color: var(--muted); }
+  footer p { margin: 12px 0 0; }
+  @media (max-width: 600px) {
+    .grid2 { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: 1fr 1fr; }
+    .toc { columns: 1; }
+    .toc a { display: inline-block; padding: 3px 0; }
+    header.site { flex-direction: column; align-items: flex-start; }
+    header.site nav { justify-content: flex-start; }
+    header.site nav a, footer nav a, nav.crumbs a { display: inline-block; padding: 10px 0; }
+    footer nav { gap: 0 18px; }
+    th, td { padding: 8px 4px; font-size: 14px; }
+    .tbl th, .tbl td { padding: 8px 3px; font-size: 13px; }
+    .res { font-size: 11px; letter-spacing: .02em; padding: 2px 4px; }
+    nav.crumbs ol { align-items: center; }
+  }
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MobileApplication",
+   "@id": "https://nickstrom5.github.io/louisiana-eats/#app",
+   "name": "Bayou Eats: Louisiana Restaurants",
+   "alternateName": [
+    "Bayou Eats",
+    "Bayou Eats: Po-Boys, Boudin \u0026 Oysters"
+   ],
+   "description": "A free guide to 11,338 Louisiana restaurants, with hand-checked lists of po-boys, old-line Creole dining rooms, boudin and cracklins, oyster bars and beignets, and 41 MICHELIN and James Beard honorees. Sort by distance, open Apple Maps' live place card for hours and photos, and save places for your next trip.",
+   "url": "https://nickstrom5.github.io/louisiana-eats/",
+   "image": "https://nickstrom5.github.io/louisiana-eats/og.png",
+   "operatingSystem": "iOS, iPadOS",
+   "applicationCategory": "TravelApplication",
+   "applicationSubCategory": "Food \u0026 Drink",
+   "inLanguage": "en",
+   "publisher": {
+    "@id": "https://nickstrom5.github.io/louisiana-eats/#org"
+   },
+   "screenshot": "https://nickstrom5.github.io/louisiana-eats/img/screen-home.png"
+  },
+  {
+   "@type": "Organization",
+   "@id": "https://nickstrom5.github.io/louisiana-eats/#org",
+   "name": "Bayou Eats",
+   "url": "https://nickstrom5.github.io/louisiana-eats/",
+   "logo": {
+    "@type": "ImageObject",
+    "url": "https://nickstrom5.github.io/louisiana-eats/icon-512.png",
+    "width": 512,
+    "height": 512
+   },
+   "email": "nick@eatsranked.com",
+   "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "email": "nick@eatsranked.com",
+    "availableLanguage": "en"
+   },
+   "parentOrganization": {
+    "@type": "Organization",
+    "@id": "https://eatsranked.com/#organization",
+    "name": "Eats Ranked",
+    "url": "https://eatsranked.com/"
+   }
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://nickstrom5.github.io/louisiana-eats/#website",
+   "name": "Bayou Eats",
+   "alternateName": [
+    "Bayou Eats app"
+   ],
+   "url": "https://nickstrom5.github.io/louisiana-eats/",
+   "inLanguage": "en",
+   "publisher": {
+    "@id": "https://nickstrom5.github.io/louisiana-eats/#org"
+   }
+  }
+ ]
+}
+</script>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "@id": "https://nickstrom5.github.io/louisiana-eats/#faq",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Is Bayou Eats free?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Completely: no price, no ads, no in-app purchases and no account to create. It's an iPhone and iPad app on its way to the App Store, with no Android version yet; until it's out, the web search here works in any browser."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Where do the lists come from?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Two kinds of source. The po-boy, Creole dining room, boudin, oyster bar, beignet and oldest-places lists are our own research from fall 2026, with a 2025 or 2026 source behind each place: a dated local guide or news story, an official tourism listing or the place's own website. The wider directory of 11,338 restaurants starts from Overture Maps' open place data, keeps the kinds of listing that proved reliable against New Orleans' business licenses and East Baton Rouge's business registrations, and adds licensed restaurants and bars the map data missed."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Where can I get a po-boy?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Our po-boy list has 7 hand-checked shops in and around New Orleans, from Parkway Bakery \u0026amp; Tavern and Domilise's, both MICHELIN Bib Gourmands, to the backstreet shops of Metairie. In the web search, the list puts the nearest first once you share your location."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "How do I check a Louisiana restaurant's inspection?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "The Louisiana Department of Health inspects restaurants in every parish. Its reports list critical and non-critical violations, with no score, grade or placard, and they're in the department's own search. They aren't published as data, so we link them from every place rather than copy them, and we compute no grade."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it show which places serve alcohol?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "In New Orleans, when the city says so: a place holding a city alcohol outlet permit for a restaurant or bar shows it. Louisiana's own alcohol license list is search-only and other parishes publish none, so anywhere else it's unknown, never no."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it show ratings and reviews?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Not from us. Tapping a place opens Apple Maps' own card inside the app, with Apple's current ratings, hours, photos and directions. None of our lists is sorted by anyone's rating."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Does it need my location?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "No. Location only matters for putting the nearest places first. If you share it, it stays on your iPhone or iPad and never reaches us, and the app works fine without it. On this website, Near me reads your location inside your browser and nowhere else."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "A place has closed, or something's wrong. How do I tell you?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Write to nick@eatsranked.com with the place's name, its town and what changed. Corrections ship with the next data update."
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="wrap">
+  <header class="site">
+    <a class="logo" href="/louisiana-eats/" aria-label="Bayou Eats home"><svg viewBox="0 0 64 64" width="30" height="30" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#2F5D50"/><rect x="9.6" y="30.1" width="21" height="17" rx="6" fill="#C98A3E"/><rect x="10.9" y="31.1" width="18.4" height="15" rx="5.5" fill="#E8B866"/><rect x="10.9" y="31.1" width="18.4" height="7.5" rx="5.5" fill="#FBF8F2"/><rect x="33.3" y="30.1" width="21" height="17" rx="6" fill="#C98A3E"/><rect x="34.599999999999994" y="31.1" width="18.4" height="15" rx="5.5" fill="#E8B866"/><rect x="34.599999999999994" y="31.1" width="18.4" height="7.5" rx="5.5" fill="#FBF8F2"/><rect x="21.4" y="14.4" width="21" height="17" rx="6" fill="#C98A3E"/><rect x="22.7" y="15.4" width="18.4" height="15" rx="5.5" fill="#E8B866"/><rect x="22.7" y="15.4" width="18.4" height="7.5" rx="5.5" fill="#FBF8F2"/></svg>Bayou Eats</a>
+    <nav aria-label="Main">
+      <a href="/louisiana-eats/new-orleans-po-boys.html">Po-boys</a>
+      <a href="/louisiana-eats/louisiana-boudin-cracklins.html">Boudin</a>
+      <a href="/louisiana-eats/new-orleans-creole-restaurants.html">Creole</a>
+      <a href="/louisiana-eats/cities/">Cities</a>
+      <a href="/louisiana-eats/explore/">Search</a>
+    </nav>
+  </header>
+  <div class="stripes" aria-hidden="true"><svg viewBox="0 0 1200 24" preserveAspectRatio="none" aria-hidden="true"><rect x="0" y="0" width="1200" height="3" fill="#2f5d50"/><rect x="6" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="18" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="30" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="42" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="54" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="66" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="78" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="90" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="102" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="114" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="126" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="138" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="150" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="162" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="174" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="186" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="198" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="210" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="222" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="234" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="246" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="258" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="270" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="282" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="294" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="306" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="318" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="330" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="342" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="354" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="366" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="378" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="390" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="402" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="414" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="426" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="438" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="450" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="462" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="474" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="486" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="498" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="510" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="522" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="534" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="546" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="558" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="570" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="582" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="594" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="606" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="618" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="630" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="642" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="654" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="666" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="678" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="690" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="702" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="714" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="726" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="738" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="750" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="762" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="774" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="786" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="798" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="810" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="822" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="834" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="846" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="858" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="870" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="882" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="894" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="906" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="918" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="930" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="942" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="954" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="966" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="978" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="990" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="1002" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="1014" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="1026" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="1038" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="1050" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="1062" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="1074" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="1086" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="1098" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="1110" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="1122" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="1134" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="1146" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="1158" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="1170" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="1182" y="3" width="2" height="15" fill="#2f5d50"/><circle cx="1194" cy="10.5" r="4" fill="none" stroke="#2f5d50" stroke-width="1.5"/><rect x="0" y="18" width="1200" height="6" fill="#b5121b"/></svg></div>
+  <main id="main">
+  <section class="hero">
+    <p class="kicker">Bayou Eats: Po-boys, boudin & oysters for iPhone and iPad</p>
+    <h1>Louisiana restaurants, po-boys to boudin</h1>
+    <p class="lede">Looking for a dressed roast beef po-boy, a Creole dining room in the French Quarter, hot boudin in Scott or charbroiled oysters? Bayou Eats starts with lists we checked place by place, adds the MICHELIN Guide and James Beard honorees, and maps 11,338 restaurants, cafés, bars and bakeries in 329 Louisiana towns.</p>
+    <div class="cta-row"><a class="btn store-btn" href="mailto:nick@eatsranked.com?subject=Bayou%20Eats%20early%20access&amp;body=Send%20me%20the%20TestFlight%20link."><span class="store-label">Ask for early access</span></a><a class="btn btn-ghost" href="/louisiana-eats/explore/">Search on the web</a><span class="pill store-note">No charge, no ads, no sign-in. The App Store release is on its way.</span></div>
+    <ul class="stats" aria-label="What's in the app">
+      <li><b>46</b><span>hand-checked places</span></li>
+      <li><b>41</b><span>MICHELIN &amp; James Beard</span></li>
+      <li><b>329</b><span>Louisiana towns</span></li>
+      <li><b>11,338</b><span>restaurants</span></li>
+    </ul>
+  </section>
+
+  <section id="what">
+    <h2>Built around how Louisiana eats</h2>
+    <p class="sub">Star ratings won't tell you which po-boy shop New Orleans argues over or which meat market in Scott still has boudin at noon. Bayou Eats is organized the way people here eat: po-boys, Creole dining rooms, boudin, oyster bars and beignets, each place checked in fall 2026 against a 2025–26 source. Every place links to the Department of Health's own inspection reports, and Apple Maps' live card supplies ratings, hours and photos.</p>
+  </section>
+
+  <section id="how">
+    <h2>How it works</h2>
+    <ol class="steps">
+      <li class="step"><div class="n" aria-hidden="true">1</div><div><h3>Start with a craving.</h3><p>Po-boys, Old-line Creole dining rooms, Boudin & cracklins, Oyster bars & boiled seafood, Beignets & sweets, MICHELIN &amp; James Beard and Oldest Places. Or type a name, a town, a street or a dish to search the 11,338 we list.</p></div></li>
+      <li class="step"><div class="n" aria-hidden="true">2</div><div><h3>Find the closest one.</h3><p>Put the nearest first, narrow it to one town or one kind of food, or pan the map from Shreveport to Grand Isle.</p></div></li>
+      <li class="step"><div class="n" aria-hidden="true">3</div><div><h3>Head out.</h3><p>Check today's hours and photos on Apple Maps' card, call ahead, get directions, or save the place for the next trip.</p></div></li>
+    </ol>
+  </section>
+
+  <section id="screens">
+    <h2>Inside the app</h2>
+    <ul class="shots" tabindex="0" aria-label="Bayou Eats app screenshots">
+      <li><picture><source srcset="/louisiana-eats/img/screen-home.webp" type="image/webp"><img src="/louisiana-eats/img/screen-home.png" alt="The Bayou Eats home screen: a search box and guide cards for Po-Boys, Old-Line Creole Dining Rooms, Boudin &amp; Cracklins and more, each with its count of places." width="480" height="1043" loading="lazy" decoding="async"></picture><p>A guide for each Louisiana craving.</p></li><li><picture><source srcset="/louisiana-eats/img/screen-poboys.webp" type="image/webp"><img src="/louisiana-eats/img/screen-poboys.png" alt="The hand-checked po-boys list in Bayou Eats, nearest first, with each place&#x27;s town and distance." width="480" height="1043" loading="lazy" decoding="async"></picture><p>Po-boys nearest you.</p></li><li><picture><source srcset="/louisiana-eats/img/screen-detail.webp" type="image/webp"><img src="/louisiana-eats/img/screen-detail.png" alt="Dooky Chase&#x27;s in Bayou Eats: its address, Bib Gourmand, America&#x27;s Classic and Creole dining room tags, a button for Apple Maps&#x27; ratings, hours and photos, Directions and Call buttons, a small map and the hand-checked notes." width="480" height="1043" loading="lazy" decoding="async"></picture><p>Each place, hand-checked notes and all.</p></li><li><picture><source srcset="/louisiana-eats/img/screen-map.webp" type="image/webp"><img src="/louisiana-eats/img/screen-map.png" alt="The Bayou Eats map around the French Quarter, with pins and numbered clusters and filter buttons for Louisiana picks and honors." width="480" height="1043" loading="lazy" decoding="async"></picture><p>The map, by guide.</p></li><li><picture><source srcset="/louisiana-eats/img/screen-honors.webp" type="image/webp"><img src="/louisiana-eats/img/screen-honors.png" alt="The MICHELIN and James Beard list in Bayou Eats." width="480" height="1043" loading="lazy" decoding="async"></picture><p>MICHELIN Guide and James Beard honorees.</p></li>
+    </ul>
+  </section>
+  <section id="guides">
+    <h2>Louisiana food guides</h2>
+    <p class="sub">The app's lists with enough places have their own page here, free to read.</p>
+    <div class="grid2">
+      <a class="card gc gc-poboys" href="/louisiana-eats/new-orleans-po-boys.html"><b>7</b><h3>Po-boys</h3><p>7 hand-checked places, dressed or plain.</p></a><a class="card gc gc-creole" href="/louisiana-eats/new-orleans-creole-restaurants.html"><b>10</b><h3>Old-line Creole dining rooms</h3><p>10 hand-checked places in the French Quarter and beyond.</p></a><a class="card gc gc-boudin" href="/louisiana-eats/louisiana-boudin-cracklins.html"><b>8</b><h3>Boudin &amp; cracklins</h3><p>8 hand-checked places on the Cajun Boudin Trail.</p></a><a class="card gc gc-seafood" href="/louisiana-eats/new-orleans-oyster-bars.html"><b>10</b><h3>Oyster bars &amp; boiled seafood</h3><p>10 hand-checked places for raw and charbroiled oysters.</p></a><a class="card gc gc-sweets" href="/louisiana-eats/new-orleans-beignets.html"><b>7</b><h3>Beignets &amp; sweets</h3><p>7 hand-checked places under powdered sugar.</p></a>
+      
+      <a class="card gc gc-honors" href="/louisiana-eats/louisiana-michelin-james-beard.html"><b>41</b><h3>MICHELIN &amp; James Beard</h3><p>41 honored Louisiana restaurants.</p></a>
+      <a class="card" href="/louisiana-eats/louisiana-restaurant-inspections.html"><h3>Checking an inspection</h3><p>What a Louisiana inspection report says, where the reports are, and why we link them instead of copying them.</p></a>
+    </div>
+  </section>
+
+  <section id="cities">
+    <h2>Po-boys, boudin and more by town</h2>
+    <p class="sub">From New Orleans to Lafayette, the towns with enough hand-checked or honored places for a page of their own. The <a href="/louisiana-eats/cities/">cities and towns index</a> sums up what's on each.</p>
+    <ul class="cities"><li><a href="/louisiana-eats/cities/new-orleans.html">New Orleans</a></li></ul>
+  </section>
+
+  <section id="pricing">
+    <h2>Free, with no catch</h2>
+    <p class="sub">The app costs nothing, shows no ads and sells nothing inside, and there's no account to make. The lists ship inside the app, so they open right away and keep working when the signal drops out in the swamp.</p>
+  </section>
+
+  <section id="privacy">
+    <h2>What stays on your phone</h2>
+    <p class="sub">Bayou Eats collects nothing about you: no sign-in, no analytics, no ads. Location, if you turn it on, only puts the nearest places first, and your saved places are kept on the phone or iPad. The website has no cookies and no trackers. <a href="/louisiana-eats/privacy.html">The privacy policy</a> has the details.</p>
+  </section>
+
+  <section id="faq">
+    <h2>Questions</h2>
+    <details><summary>Is Bayou Eats free?</summary><p>Completely: no price, no ads, no in-app purchases and no account to create. It&#x27;s an iPhone and iPad app on its way to the App Store, with no Android version yet; until it&#x27;s out, the web search here works in any browser.</p></details><details><summary>Where do the lists come from?</summary><p>Two kinds of source. The po-boy, Creole dining room, boudin, oyster bar, beignet and oldest-places lists are our own research from fall 2026, with a 2025 or 2026 source behind each place: a dated local guide or news story, an official tourism listing or the place&#x27;s own website. The wider directory of 11,338 restaurants starts from Overture Maps&#x27; open place data, keeps the kinds of listing that proved reliable against New Orleans&#x27; business licenses and East Baton Rouge&#x27;s business registrations, and adds licensed restaurants and bars the map data missed.</p></details><details><summary>Where can I get a po-boy?</summary><p>Our po-boy list has 7 hand-checked shops in and around New Orleans, from Parkway Bakery &amp;amp; Tavern and Domilise&#x27;s, both MICHELIN Bib Gourmands, to the backstreet shops of Metairie. In the web search, the list puts the nearest first once you share your location.</p></details><details><summary>How do I check a Louisiana restaurant&#x27;s inspection?</summary><p>The Louisiana Department of Health inspects restaurants in every parish. Its reports list critical and non-critical violations, with no score, grade or placard, and they&#x27;re in the department&#x27;s own search. They aren&#x27;t published as data, so we link them from every place rather than copy them, and we compute no grade.</p></details><details><summary>Does it show which places serve alcohol?</summary><p>In New Orleans, when the city says so: a place holding a city alcohol outlet permit for a restaurant or bar shows it. Louisiana&#x27;s own alcohol license list is search-only and other parishes publish none, so anywhere else it&#x27;s unknown, never no.</p></details><details><summary>Does it show ratings and reviews?</summary><p>Not from us. Tapping a place opens Apple Maps&#x27; own card inside the app, with Apple&#x27;s current ratings, hours, photos and directions. None of our lists is sorted by anyone&#x27;s rating.</p></details><details><summary>Does it need my location?</summary><p>No. Location only matters for putting the nearest places first. If you share it, it stays on your iPhone or iPad and never reaches us, and the app works fine without it. On this website, Near me reads your location inside your browser and nowhere else.</p></details><details><summary>A place has closed, or something&#x27;s wrong. How do I tell you?</summary><p>Write to nick@eatsranked.com with the place&#x27;s name, its town and what changed. Corrections ship with the next data update.</p></details>
+  </section>
+
+  <section id="download" class="final">
+    <h2>Find your next po-boy</h2>
+    <p class="sub">The iPhone and iPad app is almost here, and it's free. Ask for early access.</p>
+    <div class="cta-row"><a class="btn store-btn" href="mailto:nick@eatsranked.com?subject=Bayou%20Eats%20early%20access&amp;body=Send%20me%20the%20TestFlight%20link."><span class="store-label">Ask for early access</span></a></div>
+  </section>
+  </main>
+  <footer>
+    <nav aria-label="Footer">
+      <a href="/louisiana-eats/">Bayou Eats app</a>
+      <a href="/louisiana-eats/explore/">Search Louisiana restaurants</a>
+      <a href="/louisiana-eats/new-orleans-po-boys.html">Po-boys</a>
+      <a href="/louisiana-eats/new-orleans-creole-restaurants.html">Old-line Creole dining rooms</a>
+      <a href="/louisiana-eats/louisiana-boudin-cracklins.html">Boudin &amp; cracklins</a>
+      <a href="/louisiana-eats/new-orleans-oyster-bars.html">Oyster bars &amp; boiled seafood</a>
+      <a href="/louisiana-eats/new-orleans-beignets.html">Beignets &amp; sweets</a>
+      <a href="/louisiana-eats/louisiana-michelin-james-beard.html">MICHELIN &amp; James Beard</a>
+      <a href="/louisiana-eats/louisiana-restaurant-inspections.html">Checking an inspection</a>
+      <a href="/louisiana-eats/cities/">Cities and towns</a>
+      <a href="/louisiana-eats/privacy.html">Privacy policy</a>
+      <a href="/louisiana-eats/terms.html">Terms of use</a>
+      <a href="mailto:nick@eatsranked.com">Email us</a>
+    </nav>
+    <p>Place data: hand-checked research by Bayou Eats (fall 2026); the City of New Orleans' Occupational Business Licenses (2026-11-03) and Alcohol Beverage Outlets, and East Baton Rouge Parish's business registrations and ABC licenses (public domain); Overture Maps Foundation places (CDLA Permissive 2.0) and addresses (open address sources under permissive licenses, docs.overturemaps.org/attribution); map outlines © OpenStreetMap contributors, Overture Maps Foundation (ODbL). Not affiliated with or endorsed by the State of Louisiana, the Louisiana Department of Health, the City of New Orleans, East Baton Rouge Parish, any parish, any restaurant or chain, the MICHELIN Guide or the James Beard Foundation. MICHELIN and the MICHELIN Guide are trademarks of Michelin; James Beard Foundation and James Beard Award are trademarks of the James Beard Foundation. Places open and close, so check before you go.</p>
+    <p>© 2026 Bayou Eats. Part of <a href="https://eatsranked.com/" rel="noopener">Eats Ranked</a>, restaurant apps state by state.</p>
+    <p>Created by <a href="https://work-with-nick.com/" rel="author">Nick Soderstrom</a>.</p>
+  </footer>
+</div>
+<script>
+  // Once the App Store listing exists, paste its URL here (looks like https://apps.apple.com/app/id123456789).
+  // Every button switches from "Ask for early access" to "Download on the App Store" automatically (then use Apple's badge artwork,
+  // see store_button() in scripts/make-site.py). Also fill in the apple-itunes-app meta tag in <head> on every page, and put the
+  // MobileApplication "offers" back in the landing page's JSON-LD (re-run scripts/make-site.py after editing it there).
+  var APP_STORE_URL = "";
+  if (APP_STORE_URL) {
+    document.querySelectorAll(".store-btn").forEach(function (b) { b.href = APP_STORE_URL; b.rel = "noopener"; });
+    document.querySelectorAll(".store-label").forEach(function (l) { l.textContent = "Download on the App Store"; });
+    document.querySelectorAll(".store-note").forEach(function (n) { n.textContent = "Free for iPhone and iPad."; });
+  }
+</script>
+</body>
+</html>

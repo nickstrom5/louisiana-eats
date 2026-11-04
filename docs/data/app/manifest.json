@@ -1,0 +1,90 @@
+{
+ "schema": 1,
+ "version": "2026-11-04.1",
+ "records_through": "2026-11-04",
+ "published": "2026-11-04T10:37:48Z",
+ "min_app_build": 1,
+ "files": {
+  "detail-acadiana": {
+   "path": "detail-acadiana-3138656cee13.json",
+   "sha256": "3138656cee1367dec39b836ab9c2b69dbcb2af124ec4f63b2d1aba28ed8f0258",
+   "bytes": 77313,
+   "rows": 1211
+  },
+  "detail-baton-rouge": {
+   "path": "detail-baton-rouge-0a1a8c53f351.json",
+   "sha256": "0a1a8c53f3512cd8937be50eceab7f54d55eb330d9cca3814ac8497112f076f9",
+   "bytes": 281974,
+   "rows": 2090
+  },
+  "detail-central-louisiana": {
+   "path": "detail-central-louisiana-c953f3075d34.json",
+   "sha256": "c953f3075d348f22f5a4cc5232b21ddba03ad9c2508d96a5dacae3982f79bb65",
+   "bytes": 39147,
+   "rows": 601
+  },
+  "detail-houma-bayou-country": {
+   "path": "detail-houma-bayou-country-4afb1bacadf6.json",
+   "sha256": "4afb1bacadf608020ecf435d88c092695a41fdd0a95d9b1fd033a80d6e657718",
+   "bytes": 35684,
+   "rows": 571
+  },
+  "detail-lake-charles-southwest": {
+   "path": "detail-lake-charles-southwest-5b341003785f.json",
+   "sha256": "5b341003785f276e89834e233a1255c41ae10420659ed2141a81fbed70bc09ae",
+   "bytes": 40587,
+   "rows": 621
+  },
+  "detail-monroe-northeast": {
+   "path": "detail-monroe-northeast-45846fab757e.json",
+   "sha256": "45846fab757e6cd02e613839fb514cfb9cbbc51556e608eb254018be1e677759",
+   "bytes": 41464,
+   "rows": 620
+  },
+  "detail-new-orleans": {
+   "path": "detail-new-orleans-09f685acd3c4.json",
+   "sha256": "09f685acd3c48e821e9d897e2299f1a52634277f72584d8f90c4117daed5cb4d",
+   "bytes": 450879,
+   "rows": 3834
+  },
+  "detail-northshore": {
+   "path": "detail-northshore-0920e3e4c46d.json",
+   "sha256": "0920e3e4c46d396ab7c9e95b320522694f1a6ff0469c22bc11e7d4f24de4bb7c",
+   "bytes": 70547,
+   "rows": 1050
+  },
+  "detail-shreveport-northwest": {
+   "path": "detail-shreveport-northwest-0e64b82616a2.json",
+   "sha256": "0e64b82616a24aefcccbac37d4bb787fd556cbea9700f126cee09b914ae46b43",
+   "bytes": 66536,
+   "rows": 994
+  },
+  "places": {
+   "path": "places-f52bcdc148ee.json",
+   "sha256": "f52bcdc148ee67183bdec993209a731e5f83cd324261890a94716c3ec1dce288",
+   "bytes": 1890714,
+   "rows": 11809
+  }
+ },
+ "counts": {
+  "places": 11809,
+  "files": 10,
+  "bytes": 2994845,
+  "restaurants": 11338
+ },
+ "previous": {
+  "version": "2026-11-03.1",
+  "files": {
+   "detail-acadiana": "detail-acadiana-d95906d4f520.json",
+   "detail-baton-rouge": "detail-baton-rouge-0a1a8c53f351.json",
+   "detail-central-louisiana": "detail-central-louisiana-b337df0b3692.json",
+   "detail-houma-bayou-country": "detail-houma-bayou-country-4afb1bacadf6.json",
+   "detail-lake-charles-southwest": "detail-lake-charles-southwest-5b341003785f.json",
+   "detail-monroe-northeast": "detail-monroe-northeast-3b39a2bb06ec.json",
+   "detail-new-orleans": "detail-new-orleans-09f685acd3c4.json",
+   "detail-northshore": "detail-northshore-0920e3e4c46d.json",
+   "detail-shreveport-northwest": "detail-shreveport-northwest-21c38053921d.json",
+   "places": "places-234c883c366f.json"
+  }
+ }
+}
