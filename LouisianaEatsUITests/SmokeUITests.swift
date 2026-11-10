@@ -236,17 +236,19 @@ final class SmokeUITests: XCTestCase {
         waitFor(app.navigationBars["Po-Boys"], 5, "a Home card opens its guide on iPad")
         XCUIDevice.shared.orientation = .landscapeLeft     // all three columns
         Thread.sleep(forTimeInterval: 1.5)
-        for g in ["MICHELIN & James Beard", "Boudin & Cracklins", "Po-Boys", "All Restaurants"] {
+        // (sidebar name, navigation bar title: a long guide title has a short bar title, Guide.navTitle)
+        for (g, bar) in [("MICHELIN & James Beard", "Honors"), ("Boudin & Cracklins", "Boudin & Cracklins"), ("Po-Boys", "Po-Boys"),
+                         ("All Restaurants", "All Restaurants")] {
             let item = sidebarItem(g)
             waitFor(item, 5, "sidebar \(g)"); item.tap()
-            waitFor(app.navigationBars[g], 5, "\(g) list")
+            waitFor(app.navigationBars[bar], 5, "\(g) list")
         }
         let search = app.searchFields.firstMatch
         if !search.exists { app.swipeDown() }
-        waitFor(search, 5, "search"); search.tap(); search.typeText("mary mac")
-        let row = button(containing: "Mary Mac")
-        waitFor(row, 5, "Mary Mac's Tea Room in results"); row.tap()
-        exerciseDetail(named: "MARY MAC'S TEA ROOM")
+        waitFor(search, 5, "search"); search.tap(); search.typeText("dooky")
+        let row = button(containing: "Dooky Chase")
+        waitFor(row, 5, "Dooky Chase in results"); row.tap()
+        exerciseDetail(named: "DOOKY CHASE")
         // Apple's place card is still up over the split view: a tap outside it (or a swipe down) closes it
         for _ in 0..<3 where !sidebarItem("Map").isHittable {
             app.coordinate(withNormalizedOffset: CGVector(dx: 0.03, dy: 0.08)).tap()
