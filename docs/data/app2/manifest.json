@@ -1,0 +1,68 @@
+{
+ "schema": 2,
+ "version": "2026-11-04.1",
+ "records_through": "2026-11-04",
+ "min_app_build": 1,
+ "files": {
+  "detail-acadiana": {
+   "path": "detail-acadiana-980456ee20d2.json",
+   "sha256": "980456ee20d28b84cb3943810719b3ec42952b900d5fcac1fa35567a01308709",
+   "bytes": 77323
+  },
+  "detail-baton-rouge": {
+   "path": "detail-baton-rouge-af8be87c43bf.json",
+   "sha256": "af8be87c43bf33b805a8f337080d2fd74c790f630acda6be7eb33b7bd34c34a8",
+   "bytes": 289949
+  },
+  "detail-central-louisiana": {
+   "path": "detail-central-louisiana-c953f3075d34.json",
+   "sha256": "c953f3075d348f22f5a4cc5232b21ddba03ad9c2508d96a5dacae3982f79bb65",
+   "bytes": 39147
+  },
+  "detail-houma-bayou-country": {
+   "path": "detail-houma-bayou-country-9505578764e4.json",
+   "sha256": "9505578764e47dd54e80f346665bacfb7d69c51b7bcadaf8f55968d19c5e8587",
+   "bytes": 35694
+  },
+  "detail-lake-charles-southwest": {
+   "path": "detail-lake-charles-southwest-610e51ddc6df.json",
+   "sha256": "610e51ddc6df1149747a6851cad78c1cb0c5589ff5bc1df41ca83678b9d84fe1",
+   "bytes": 40592
+  },
+  "detail-monroe-northeast": {
+   "path": "detail-monroe-northeast-45846fab757e.json",
+   "sha256": "45846fab757e6cd02e613839fb514cfb9cbbc51556e608eb254018be1e677759",
+   "bytes": 41464
+  },
+  "detail-new-orleans": {
+   "path": "detail-new-orleans-cb38625ed761.json",
+   "sha256": "cb38625ed7614a3a95c0e82a05be0f42ef07c3cb57d0a69139fb68b07337487e",
+   "bytes": 465844
+  },
+  "detail-northshore": {
+   "path": "detail-northshore-0e615ed627ac.json",
+   "sha256": "0e615ed627acd10ea2951eac557c5020d121ecf7d644bce85c8b89268a20af3b",
+   "bytes": 70557
+  },
+  "detail-shreveport-northwest": {
+   "path": "detail-shreveport-northwest-0e64b82616a2.json",
+   "sha256": "0e64b82616a24aefcccbac37d4bb787fd556cbea9700f126cee09b914ae46b43",
+   "bytes": 66536
+  },
+  "places": {
+   "path": "places-226e2d1b95ba.json",
+   "sha256": "226e2d1b95ba218e66b934e9d7ae9a6fee4f3f5b9f5c6ee88c94d24d400fa597",
+   "bytes": 1962500
+  },
+  "state": {
+   "path": "state-aa7e14a5b2d6.json",
+   "sha256": "aa7e14a5b2d6a19ac2a3b2df1be66dc4a7b3be667b9f4be6fcf9f0bf65bb3284",
+   "bytes": 11165
+  }
+ },
+ "counts": {
+  "places": 11809,
+  "restaurants": 11338,
+  "bytes": 3100771
+ }
+}
